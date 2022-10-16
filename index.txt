@@ -1,0 +1,9 @@
+background color: 
+dark: #222629;
+light: #474B4F
+extra light: #6B6E70
+
+green:
+dark: #61892F
+light: #86C232
+

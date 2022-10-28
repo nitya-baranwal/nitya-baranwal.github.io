@@ -1,26 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nitya Baranwal | Java Backend Developer | Spring Boot</title>
-    <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nitya Baranwal | Java Backend Developer | Spring Boot</title>
+  <link rel="stylesheet" href="styles/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-   <div id="navbar">
-    <div><img id="nav-logo"  src="image.png" alt=""></div>
-        <div></div>
-        <div class="nav-list">
-            <div>About Me</div>
-            <div>Skills</div>
-            <div>Projects</div>
-            <div>Contacts</div>
-            <div>Resume</div>
+
+  <!-- navbar started -->
+  <div id="navbar">
+    <div id="name">
+      <img id="name-img" src="images/name.png" alt="Nitya">
+    </div>
+    <div id="list">
+      <a class="list-item hover-underline-animation" href="#home-section">Home</a>
+      <a class="list-item hover-underline-animation" href="#about-section">About Me</a>
+      <a class="list-item hover-underline-animation" href="#skills-section">Skills</a>
+      <a class="list-item hover-underline-animation" id="#project">Projects</a>
+      <a class="list-item hover-underline-animation" id="#contact">Contact</a>
+    </div>
+  </div>
+  <div id="navham">
+    <div id="menu"  onclick="onClickMenu()">
+         <div id="bar1" class="bar"></div>
+         <div id="bar2" class="bar"></div>
+         <div id="bar3" class="bar"></div>
+    </div>
+
+    <ul class="nav" id="nav">
+          <li> <a onclick="removemenu()" class="anchor" href="#home-section">Home</a></li>
+          <li> <a onclick="removemenu()" class="anchor" href="#about-section">About Me</a></li>
+          <li> <a onclick="removemenu()" class="anchor" href="#skills-section">Skills</a></li>
+          <li> <a onclick="removemenu()" class="anchor" href="#">Projects</a></li>
+          <li> <a onclick="removemenu()" class="anchor" href="#">Contact</a></li>
+    </ul>
+</div>
+
+<!-- navbar ended -->
+
+
+<div id="main">
+
+
+<!-- home-section started-->
+    <div id="home-section">
+    <div id="home-section-mini">
+        <div id="home-left">
+            <p> Hi, I am <span style="color: #828282;
+                  text-shadow: 1px 1px 1px var(--clr-tertiary); ">Nitya Baranwal</span></p>
+            
+            <span style="color: #828282; margin-bottom: 200vh; font-weight: 550; font-size: 2.8vw;margin-top: -50vh;">An Aspiring 
+                 <span class='console-container'>   
+                <span id='text' style="text-shadow: 1px 1px 1px var(--clr-tertiary); "></span>
+                <!-- <div class='console-underscore' id='console' style="color:#00ffff">&#95; </div> -->
+            </span></span>
+            
+  
+  
         </div>
+        <div id="home-right"></div>
+    </div>
+  
+    
    
-   </div>
+     </div>
+  <!-- home-section ended -->
+  <!-- about me started -->
+  
+  <div id="about-section">
+    <div id="about-section-mini">
+        <div id="about-left">
+       <div>About Me</div>
+       <div><p>My name is Nitya. I'm a Java Back-end Developer.
+          Aspiring Java Backend Developer with a proficient in Java, Spring Boot, SQL,Git, AWS, HTML, CSS, Javascript, Object-oriented, design And Self-motivated and curious, with a keen interest in building user-centric products. Looking forward to honing my skills in a challenging work environment .</p>
+          <div id="resume-button">
+            <button>Resume   <i style="color: white; background-color: #86C232;" class="fa fa-download" aria-hidden="true"></i></button>
+          </div>
+          </div>
+        </div>
+        <div id="about-right"></div>
+    </div>
+  </div>
+  
+  
+      <div id="skills-section">
+          <h3><span style="color: #86C232;">My</span>Skills</h3>
+          <div id="gap">
+              <h1><span style="color:#86C232">Front-end </span> Technologies</h1>
+              <div id="front">
+                  <div class="frontend">
+                      <div>
+                          <img src="images/html-5.png">
+                          <h4>HTML 5</h4>
+                      </div>
+                  </div>
+                  <div class="frontend">
+                      <div>
+                          <img src="images/css.png">
+                          <h4>CSS 3</h4>
+                      </div>
+                  </div>
+                  <div class="frontend">
+                      <div>
+                          <img src="images/java-script.png">
+                          <h4>JavaScript</h4>
+                      </div>
+                  </div>
+                  <div class="frontend">
+                      <div>
+                          <img src="images/netlify.png">
+                          <h4>Netlify</h4>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div id="gap1">
+              <h1><span style="color:#86C232">Back-end </span> Technologies</h1>
+              <div id="front1">
+                  <div class="frontend">
+                      <div>
+                          <img src="images/java.png">
+                          <h4>Java</h4>
+                      </div>
+                  </div>
+                  <div class="frontend">
+                      <div>
+                          <img src="images/mysql.png">
+                          <h4>MySql</h4>
+                      </div>
+                  </div>
+                  <div class="frontend">
+                      <div>
+                          <img src="images/spring-boot.png">
+                          <h4>SpringBoot</h4>
+                      </div>
+                  </div>
+                  <div class="frontend">
+                      <div>
+                          <img src="images/github.png">
+                          <h4>GitHub</h4>
+                      </div>
+                  </div>
+                  <div class="frontend">
+                      <div>
+                          <img src="images/hibernate-white.svg">
+                          <h4>Hibernate</h4>
+                      </div>
+                  </div>
+                  <div class="frontend">
+                      <div>
+                          <img src="images/postman-3521648.png">
+                          <h4>Postman</h4>
+                      </div>
+                  </div>
+                  <!-- <div class="frontend" id="none"></div>
+                  <div class="frontend" id="none"></div> -->
+              </div>
+          </div>
+        </div>
+  
+  
+  <div id="project">
+    <h3><span style="color: #86C232;">My</span>Projects</h3>
+    <div id="created">
+  
+      <div class="work">
+          <img src="images/backend11.png">
+          <div class="layer">
+              <h3 id="h3">Music App</h3>
+              <p id="p">Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+              <a href="#">Live</a>
+              <a href="#">GitHub</a>
+          </div>
+      </div>
+      <div class="work">
+          <img src="images/backend11.png">
+          <div class="layer">
+              <h3 id="h3">Music App</h3>
+              <p id="p">Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+              <a href="#">Live</a>
+              <a href="#">GitHub</a>
+          </div>
+      </div>
+        <div class="work">
+          <img src="images/backend11.png">
+          <div class="layer">
+              <h3 id="h3">Music App</h3>
+              <p id="p">Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+              <a href="#">Live</a>
+              <a href="#">GitHub</a>
+          </div>
+      </div>
+    </div>
+    </div>
+
+<!-- --------------------contact me ----- -->
+
+<!-- --------------------------Contact Me----------------------------- -->
+
+<div id="contact">
+    <div id="contactme">
+        <div id="firstcontact">
+            <h1>Contact <span style="color:#86C232;">Me</span></h1>
+            <div id="git"><img src="images/github-sign.png"> <p>nitya-nb</p></div>
+            <div id="tele"><img src="images/telephone-symbol-button.png"> <p>+917985146647</p></div>
+            <div id="all">
+                <img src="images/facebook.png" alt="">
+                <img src="images/twitter-sign.png" alt="">
+                <img src="images/instagram.png" alt="">
+                <img src="images/linkedin.png" alt="">
+            </div>
+            <button>Download CV</button>
+        </div>
+        <div id="secondcontact">
+            <form action="https://formsubmit.co/nityabaranwal1@gmail.com" method="post" target="_blank" rel="noopener noreferrer">
+
+                <input type="hidden" name="_template" value="table">
+
+                <input type="hidden" name="_autoresponse" value="Thank you for reaching me.I will contact you soon...">
+
+                <input type="hidden" name="_subject" value="New submission!">
+
+                <input type="hidden" name="_next" value="">
+
+                <input type="text" name="name" placeholder=" Name" required="">
+
+                <input type="email" name="email" placeholder=" Email" required="">
+
+                <input id="msg" name="Message" rows="6" placeholder=" Message"></input>
+
+
+                <button type="submit" id="contact-button">SEND</button>
+            </form>
+          
+        </div>
+    </div>
+</div>
+
+  </div> 
+
+</div>
+
+
+
+
+
+<!-- <div id="about-section">
+  <div id="about-title">About Me</div>
+  <div id="about-text-img">
+    <div id="about-left-img"></div>
+    <div id="about-right-text"></div>
+  </div>
+</div> -->
 </body>
 </html>
+<script src="/scripts/index.js"></script>
 
-<script src="index.js"></script>
+
+
+<!-- ctrl z here ------------- -->

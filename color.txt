@@ -1,0 +1,27 @@
+background:
+dark: #222629
+light: #474B4F
+extra light: #6B6E70
+
+green:
+dark: #61892f
+light: #86C232
+
+#1b4332
+
+
+
+color:
+
+
+gray: 
+
+light: #6B6E70
+light dark: #474B4F
+dark: #222629
+
+
+green:
+
+light: #86C232
+dark: #61892F

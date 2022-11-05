@@ -64,3 +64,9 @@ function consoleText(words, id, colors) {
   //   }
   // }, 400)
 }
+
+
+// document.querySelector("#resume-button").addEventListener("click", function(){
+
+//   window.location.href="https://drive.google.com/file/d/1WAeiQ5hguidkZ92SXXHIOwbZLCOt9nLu/view?usp=sharing";
+// });

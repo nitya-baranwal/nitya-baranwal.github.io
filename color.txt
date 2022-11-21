@@ -1,3 +1,11 @@
+color: #5a96d1; light blue font
+
+
+
+
+
+
+
 background:
 dark: #222629
 light: #474B4F

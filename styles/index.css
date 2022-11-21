@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   background-color: #222629;
-  /* background-color: crimson; */
+  /* background-color: #010113; */
   font-family:sans-serif;
   overflow-x: hidden;
 }
@@ -46,8 +46,11 @@
 #list .list-item{
   /* border: 1px solid purple; */
   font-size: 2vw;
-  /* color: crimson; */
-  color: #86C232;
+  /* color: #ff521b; */
+  color: #5a96d1;
+  /* color: #61a5c2; */
+  /* color: #a9d6e5; */
+  
   margin-top: 3%;
   cursor: pointer;
   text-decoration: none;
@@ -69,7 +72,7 @@
   top: 55%;
   left: 0;
   /* background-color: #0087ca; */
-  background-color: crimson;
+  background-color: whitesmoke;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -164,7 +167,7 @@
 
 #about-left div:first-child{
   margin: 7% 5% 0 5%;
-  color: #86C232;
+  color: #5a96d1;
   font-size: 40px;
   height: auto;
 }
@@ -188,7 +191,7 @@
   border: white;
   border-radius: 10px;
   padding: 1.5%;
-  background-color: #86C232;
+  background-color: #5a96d1;
 }
 
 
@@ -254,7 +257,7 @@
 
 }
 .frontend:hover {
-  background-image: linear-gradient(to bottom,#86C232, #61892f);
+  background-image: linear-gradient(to bottom,#5a96d1, #5a96d1);
   transform: translateY(-10px);
   /* background-color: rgb(220, 100, 2); */
   /* background-color: rgb(227, 7, 81); */
@@ -325,7 +328,7 @@
 .layer {
   width: 100%;
   height: 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), #86C232);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), #5a96d1);
   border-radius: 10px;
   position: absolute;
   left: -10px; 
@@ -358,7 +361,7 @@
 
 .layer a {
   margin-top: 10%;
-  color: #86C232;
+  color: #5a96d1;
   text-decoration: none;
   font-size: 18px;
   line-height: 30px;
@@ -370,7 +373,7 @@
   padding: 0 3% 0 3%;
 }
 .layer a:hover {
-  background-color:#86C232;
+  background-color: #5a96d1;
   color: white;
   border: 4px solid white;
 }
@@ -432,14 +435,14 @@
   /* color: white; */
   margin-top: 28px;
   margin-left: 17px;
-  background-color: #86C232;
+  background-color: #5a96d1;
   border-radius: 7px;
   padding: 10px 22px;
   font-weight: 600;
   cursor: pointer;
 }
 #submit,#contact-button{
-  background-color: #86C232;
+  background-color: #5a96d1;
   border-radius: 7px;
   padding: 10px 22px;
   font-weight: 600;
@@ -449,7 +452,7 @@
 }
 #firstcontact button:hover, #submit:hover {
   background-color: #222629;
-  border: 2px solid #86C232;
+  border: 2px solid #5a96d1;
 }
 #secondcontact {
   /* width: 50%; */
@@ -466,7 +469,7 @@
   border-radius: 10px;
   /* color: black; */
   background-color: black;
-  color: #86C232;
+  color: #5a96d1;
 }
 
 #secondcontact input:focus{
@@ -564,7 +567,7 @@
 
 #about-left div:first-child{
   margin: 7% 5% 0 5%;
-  color: #86C232;
+  color: #5a96d1;
   font-size: 40px;
 }
 
@@ -587,7 +590,7 @@
   border: white;
   border-radius: 10px;
   padding: 1.5%;
-  background-color: #86C232;
+  background-color: #5a96d1;
 }
 
 
@@ -666,7 +669,7 @@
 
  .layer a {
   margin-top: 10%;
-  color: #86C232;
+  color: #5a96d1;
   text-decoration: none;
   font-size: 18px;
   line-height: 30px;
@@ -701,7 +704,7 @@
    .bar{
       height: 5px;
       width: 100%;
-      background-color: #86C232;
+      background-color: #5a96d1;
       display: block;
       border-radius: 5px;
       transition: 0.3s ease;
@@ -715,12 +718,12 @@
    }
   
    .nav li a{
-      color: #86C232;
+      color: #5a96d1;
       text-decoration: none;
    }
   
    .nav li a:hover{
-      border: 1px solid #86C232;
+      border: 1px solid #5a96d1;
       padding: 10px 20px;
    }
   
@@ -741,7 +744,7 @@
   }
   
    .icon .bar{
-      background-color: #86C232;
+      background-color: #5a96d1;
    }
   
    .icon #bar1{
@@ -853,7 +856,7 @@
 
 #about-left div:first-child{
   margin: 7% 5% 0 5%;
-  color: #86C232;
+  color: #5a96d1;
   font-size: 40px;
 }
 
@@ -876,7 +879,7 @@
   border: white;
   border-radius: 10px;
   padding: 1.5%;
-  background-color: #86C232;
+  background-color: #5a96d1;
 }
 
 
@@ -984,7 +987,7 @@
 
  .layer a {
   margin-top: 10%;
-  color: #86C232;
+  color: #5a96d1;
   text-decoration: none;
   font-size: 18px;
   line-height: 30px;
@@ -1021,7 +1024,7 @@
    .bar{
       height: 5px;
       width: 100%;
-      background-color: #86C232;
+      background-color: #5a96d1;
       display: block;
       border-radius: 5px;
       transition: 0.3s ease;
@@ -1035,12 +1038,12 @@
    }
   
    .nav li a{
-      color: #86C232;
+      color: #5a96d1;
       text-decoration: none;
    }
   
    .nav li a:hover{
-      border: 1px solid #86C232;
+      border: 1px solid #5a96d1;
       padding: 10px 20px;
    }
   
@@ -1062,7 +1065,7 @@
   }
   
    .icon .bar{
-      background-color: #86C232;
+      background-color: #5a96d1;
    }
   
    .icon #bar1{
@@ -1099,42 +1102,26 @@
 
 
 
-/* -------- about me start ----- */
-
-
-/* #about-section{
-  width: 99vw;
-  height: 90vh;
-  border: 1px solid red;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-}
-
-#about-title{
-  font-size: 3vw;
-  color: #86C232;
-
-} */
-
-
-
-
-
-
-
-
-
-
 /* -----------------------------my skills---------*/
 
 /* -----------------------------calendar stats--- */
 
+.title{
+  color: #5a96d1;
+  margin: auto;
+  width: 80%;
+}
+.title p{
+  color: #5a96d1;
+  text-decoration: none;
+  text-underline-offset: none;
+  /* background-color: white; */
+}
+
 .statsBox{
   display: block;
   text-align: center;
-  background-color: rgb(247, 247, 210);
-  padding-top: 5%;
+ 
 }
 
 .statsBox > h3{
@@ -1143,7 +1130,7 @@
   width: 15%;
   margin: auto;
   border-radius: 7px;
-  background-color: brown;
+  background-color: #5a96d1;
   color: white;
   margin-bottom: 1%;
   padding: 4px;
@@ -1178,11 +1165,143 @@
       color: rgb(54, 3, 3);
       border: 1px solid rgb(22, 4, 61);
   }
+
+.statsContainer{
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: center;
+}
+
+.statsContainer > div a img{
+  width: 100%;
+  margin: auto;
+}
+
+.statsBox > h3{
+  font-size: 15px;
+  margin-bottom: 5%;
+  border: 1px solid rgb(22, 4, 61);
+}
+  
+.stats-3{
+  display: block;
+  padding-top: 3%;
+}
+
+.stats-3  img{
+  width: 40%;
+  margin: auto;
+}
+
+
+.graph  img{
+  width: 90%;
+  margin: auto;
+}
+
+.graph-1  img{
+  width: 80%;
+  margin:auto;
+}
+
+
+  
+}
+
+.graph{
+  width: 100%;
+  margin: auto;
+  display: block;
+  text-align: center;
+  background-color: #0d1117;
+}
+
+
+
+.graph  img{
+  width: 80%;
+  margin: auto;
+}
+
+
+
+
+
+@media all and (min-width: 250px) and (max-width: 480px){
+  .statsContainer{
+      display: block;
+      width: 90%;
+      margin: auto;
+      justify-content: center;
+  }
+ 
+  .stats-2  img{
+      width: 95%;
+      margin: auto;
+  }
+
+  .statsContainer > div a img{
+      width: 100%;
+  }
+  
+  .statsBox > h3{
+      font-size: 13px;
+      margin-bottom: 5%;
+      border: 1px solid rgb(22, 4, 61);
+  }
+  .stats-3{
+      display: block;
+      margin-top: 5%;
+  }
+  .stats-3  img{
+      width: 60%;
+      margin: auto;
+      margin-top: 5%;
+  }
+
+
+  .graph  img{
+    width: 90%;
+    margin: auto;
+}
+
+.graph-1  img{
+    width: 80%;
+    margin:auto;
+}
+}
+
+
+@media all and (min-width: 400px) and (max-width: 786px){
+
+  .statsContainer{
+      display: flex;
+      width: 90%;
+      margin: auto;
+      justify-content: center;
+  }
+
+  .statsContainer > div a img{
+      width: 100%;
+      margin: auto;
+  }
+  
+  .statsBox > h3{
+      font-size: 15px;
+      margin-bottom: 5%;
+      width: fit-content;
+      background-color: white;
+      color: rgb(54, 3, 3);
+      border: 1px solid rgb(22, 4, 61);
+  }
   
 }
 
 
-@media all and (min-width: 280px) and (max-width: 480px){
+
+
+@media all and (min-width: 54px) and (max-width: 400px){
   .statsContainer{
       display: block;
       width: 90%;
@@ -1202,14 +1321,4 @@
       color: rgb(54, 3, 3);
       border: 1px solid rgb(22, 4, 61);
   }
-}
-
-.graph{
-  width: 100%;
-  margin: auto;
-  display: flex;
-}
-
-.graph > a > img{
-  width: 100%;
 }

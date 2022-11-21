@@ -14,7 +14,7 @@ function removemenu(){
 
 
 
-consoleText(['Full Stack Web Developer!', 'Problem Solver'], 'text',['#86C232']);
+consoleText(['Full Stack Web Developer!', 'Problem Solver'], 'text',['#5a96d1']);
 // rgb(220, 100, 2)
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];

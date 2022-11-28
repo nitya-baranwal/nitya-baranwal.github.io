@@ -1,281 +1,302 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nitya Baranwal | Java Backend Developer | Spring Boot</title>
-  <link rel="stylesheet" href="styles/index.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nitya Baranwal | Java Backend Developer | Spring Boot</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
 
-  <!-- navbar started -->
-  <div id="navbar">
-    <div id="name">
-      <img id="name-img" src="images/name.png" alt="Nitya">
+    <!-- navbar started -->
+    <div id="navbar">
+        <div style="margin-left: -18%;" id="name">
+            <img id="name-img" src="images/name.png" alt="Nitya">
+        </div>
+        <div id="list" style="margin-right: -14%;">
+            <a class="list-item hover-underline-animation" href="#home-section">Home</a>
+            <a class="list-item hover-underline-animation" href="#about-section">About Me</a>
+            <a class="list-item hover-underline-animation" href="#skills-section">Skills</a>
+            <a class="list-item hover-underline-animation" href="#project">Projects</a>
+            <a class="list-item hover-underline-animation" href="#contact">Contact</a>
+        </div>
     </div>
-    <div id="list">
-      <a class="list-item hover-underline-animation" href="#home-section">Home</a>
-      <a class="list-item hover-underline-animation" href="#about-section">About Me</a>
-      <a class="list-item hover-underline-animation" href="#skills-section">Skills</a>
-      <a class="list-item hover-underline-animation" id="#project">Projects</a>
-      <a class="list-item hover-underline-animation" id="#contact">Contact</a>
+    <div id="navham">
+        <div id="menu" onclick="onClickMenu()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </div>
+
+        <ul class="nav" id="nav">
+            <li> <a onclick="removemenu()" class="anchor" href="#home-section">Home</a></li>
+            <li> <a onclick="removemenu()" class="anchor" href="#about-section">About Me</a></li>
+            <li> <a onclick="removemenu()" class="anchor" href="#skills-section">Skills</a></li>
+            <li> <a onclick="removemenu()" class="anchor" href="#project">Projects</a></li>
+            <li> <a onclick="removemenu()" class="anchor" href="#contact">Contact</a></li>
+        </ul>
     </div>
-  </div>
-  <div id="navham">
-    <div id="menu"  onclick="onClickMenu()">
-         <div id="bar1" class="bar"></div>
-         <div id="bar2" class="bar"></div>
-         <div id="bar3" class="bar"></div>
-    </div>
 
-    <ul class="nav" id="nav">
-          <li> <a onclick="removemenu()" class="anchor" href="#home-section">Home</a></li>
-          <li> <a onclick="removemenu()" class="anchor" href="#about-section">About Me</a></li>
-          <li> <a onclick="removemenu()" class="anchor" href="#skills-section">Skills</a></li>
-          <li> <a onclick="removemenu()" class="anchor" href="#">Projects</a></li>
-          <li> <a onclick="removemenu()" class="anchor" href="#">Contact</a></li>
-    </ul>
-</div>
+    <!-- navbar ended -->
 
-<!-- navbar ended -->
+    <div id="main">
 
 
-<div id="main">
-
-
-<!-- home-section started-->
-    <div style="margin-top: 5%;" id="home-section">
-    <div id="home-section-mini">
-        <div id="home-left">
-            <p> Hi, I am <span style="color: #828282;
+        <!-- home-section started-->
+        <div style="margin-top: 5%;" id="home-section">
+            <div id="home-section-mini" style="width: 80%;">
+                <div id="home-left">
+                    <p> Hi, I am <span style="color: #828282;
                   text-shadow: 1px 1px 1px var(--clr-tertiary); ">Nitya Baranwal</span></p>
-            
-            <span style="color: #828282; margin-bottom: 200vh; font-weight: 550; font-size: 2.8vw;margin-top: -50vh;">An Aspiring 
-                 <span class='console-container'>   
-                <span id='text' style="text-shadow: 1px 1px 1px var(--clr-tertiary); "></span>
-                <!-- <div class='console-underscore' id='console' style="color:#00ffff">&#95; </div> -->
-            </span></span>
-            
-  
-  
-        </div>
-        <div id="home-right">
-            <img style="height: 80%;border-radius: 50%;" src="/images/nitya_pp-removebg-preview.jpg" alt="nitya-nb">
-        </div>
-    </div>
-  
-    
-   
-     </div>
-  <!-- home-section ended -->
-  <!-- about me started -->
-  
-  <div id="about-section">
-    <div id="about-section-mini">
-        <div id="about-left">
-       <div>About Me</div>
-       <div><p>My name is Nitya. I'm a Java Back-end Developer.
-          Aspiring Java Backend Developer with a proficient in Java, Spring Boot, SQL,Git, AWS, HTML, CSS, Javascript, Object-oriented, design And Self-motivated and curious, with a keen interest in building user-centric products. Looking forward to honing my skills in a challenging work environment .</p>
-          <div id="resume-button">
-            <button><a style="text-decoration: none;background: none;color:white" href="./download/Nitya-Baranwal-Resume.pdf" download target="_blank"> Resume  </a><i style="color: white; background-color: #5a96d1;" class="fa fa-download" aria-hidden="true"></i></button>
-          </div>
-          </div>
-        </div>
-        <div id="about-right"></div>
-    </div>
-  </div>
-  
-  
-      <div id="skills-section">
-          <h3><span style="color: #5a96d1;">My</span>Skills</h3>
-          <div id="gap">
-              <h1><span style="color: #5a96d1">Front-end </span> Technologies</h1>
-              <div id="front">
-                  <div class="frontend">
-                      <div>
-                          <img src="images/html-5.png">
-                          <h4>HTML 5</h4>
-                      </div>
-                  </div>
-                  <div class="frontend">
-                      <div>
-                          <img src="images/css.png">
-                          <h4>CSS 3</h4>
-                      </div>
-                  </div>
-                  <div class="frontend">
-                      <div>
-                          <img src="images/java-script.png">
-                          <h4>JavaScript</h4>
-                      </div>
-                  </div>
-                  <div class="frontend">
-                      <div>
-                          <img src="images/netlify.png">
-                          <h4>Netlify</h4>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <div id="gap1">
-              <h1><span style="color: #5a96d1">Back-end </span> Technologies</h1>
-              <div id="front1">
-                  <div class="frontend">
-                      <div>
-                          <img src="images/java.png">
-                          <h4>Java</h4>
-                      </div>
-                  </div>
-                  <div class="frontend">
-                      <div>
-                          <img src="images/mysql.png">
-                          <h4>MySql</h4>
-                      </div>
-                  </div>
-                  <div class="frontend">
-                      <div>
-                          <img src="images/spring-boot.png">
-                          <h4>SpringBoot</h4>
-                      </div>
-                  </div>
-                  <div class="frontend">
-                      <div>
-                          <img src="images/github.png">
-                          <h4>GitHub</h4>
-                      </div>
-                  </div>
-                  <div class="frontend">
-                      <div>
-                          <img src="images/hibernate-white.svg">
-                          <h4>Hibernate</h4>
-                      </div>
-                  </div>
-                  <div class="frontend">
-                      <div>
-                          <img src="images/postman-3521648.png">
-                          <h4>Postman</h4>
-                      </div>
-                  </div>
-                  <!-- <div class="frontend" id="none"></div>
-                  <div class="frontend" id="none"></div> -->
-              </div>
-         </div>
-        </div>
 
-<!-- ---------about me end  -->
+                    <span
+                        style="color: #828282; margin-bottom: 200vh; font-weight: 550; font-size: 2.8vw;margin-top: -50vh;">An
+                        Aspiring
+                        <span class='console-container'>
+                            <span id='text' style="text-shadow: 1px 1px 1px var(--clr-tertiary); "></span>
+                            <!-- <div class='console-underscore' id='console' style="color:#00ffff">&#95; </div> -->
+                        </span></span>
 
 
- <!-- github calender and graph -->
-
-<div class="title reveal" >
-    <a target="_blank" rel="noreferrer" id="cicin" href="https://github.com/nitya-nb">
-    <p style="text-align: center; font-size: 200%; padding: 3%;">My Github contributions</p>
-    <img width="100%" style="margin-bottom:20px;display: flex; padding: auto;"  id="github-contributions" src="https://ghchart.rshah.org/nitya-nb" href="https://github.com/nitya-nb" alt="nitya-nb's Github chart" />
-</a>
-</div>
-<div class="statsBox">
-    <h3>GitHub Stats</h3>
-    <div>
-    <div class="statsContainer">
-        <div>
-            <a href="https://github.com/nitya-nb" target="_blank">
-                <img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=nitya-nb" />
-            </a>
-        </div>
-    </div>
-
-    <div class="stats-3">
-        <p align="center">
-        <a href="https://github.com/nitya-nb" target="_blank">
-                <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nitya-nb&bg_color=0D1117" alt="" />
-            </a>
-        </p>
-    </div>
-
-    <div class="stats-2">
-        <p align="center">
-            <a href="https://github.com/nitya-nb/github-readme-stats" target="_blank">
-                <img alt="nitya-nb Github Stats" 
-                src="https://github-readme-stats.vercel.app/api?username=nitya-nb&show_icons=true&locale=en&theme=react&hide_border=true&bg_color=0D1117" 
-                />
-            </a>
-        </p>
-    </div>
-
-    
-    </div>
-</div>
-<div class="graph-1">
-    <p align="center">
-        <a href="https://github.com/nitya-nb" target="_blank"><span>
-            <img align="center" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nitya-nb&theme=dracula&bg_color=0D1117" />
-        </span></a> 
-    </p>
-</div>
-<div class="graph">
-<a href="https://github.com/nitya-nb/github-readme-activity-graph" target="_blank">
- <img alt="nitya-nb Activity Graph" 
- src="https://activity-graph.herokuapp.com/graph?username=nitya-nb&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" />
-</a>
-</div>
-
-  <!-- github calender and graph -->
-
-  
-  <!------------project start-  -->
-  <div id="project">
-    <h3><span style="color: #5a96d1;">My</span>Projects</h3>
-    <div id="created">
-  
-      <div class="work">
-          <img src="images/backend11.png">
-          <div class="layer">
-              <h3 id="h3">Music App</h3>
-              <p id="p">Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
-              <a href="#">Live</a>
-              <a href="#">GitHub</a>
-          </div>
-      </div>
-      <div class="work">
-          <img src="images/backend11.png">
-          <div class="layer">
-              <h3 id="h3">Music App</h3>
-              <p id="p">Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
-              <a href="#">Live</a>
-              <a href="#">GitHub</a>
-          </div>
-      </div>
-        <div class="work">
-          <img src="images/backend11.png">
-          <div class="layer">
-              <h3 id="h3">Music App</h3>
-              <p id="p">Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
-              <a href="#">Live</a>
-              <a href="#">GitHub</a>
-          </div>
-      </div>
-    </div>
-   
-
-</div>
-
-
-<!-- --------------------------Contact Me----------------------------- -->
-
-<div id="contact">
-    <div id="contactme">
-        <div id="firstcontact">
-            <h1>Contact <span style="color:#5a96d1;">Me</span></h1>
-            <div id="git"><img src="images/github-sign.png"> <p>nitya-nb</p></div>
-            <div id="tele"><img src="images/telephone-symbol-button.png"> <p>+917985146647</p></div>
-            <div id="all">
-                <img src="images/linkedin.png" alt="">
+                </div>
+                <div id="home-right">
+                    <img style="height: 80%;border-radius: 50%;" src="/images/nitya_pp-removebg-preview.jpg"
+                        alt="nitya-nb">
+                </div>
             </div>
-            <button>Download CV</button>
+
+
+
         </div>
-        <div id="secondcontact">
+        <!-- home-section ended -->
+        <!-- about me started -->
+
+        <div id="about-section">
+            <div style="margin-left: 8%;" id="about-section-mini">
+                <div id="about-left">
+                    <div>About Me</div>
+                    <div>
+                        <p>My name is Nitya. I'm a Java Back-end Developer.
+                            Aspiring Java Backend Developer, proficient in Java, Spring Boot, SQL,Git, AWS, HTML, CSS,
+                            Javascript, Object-oriented, design And Self-motivated and curious, with a keen interest in
+                            building user-centric products. Looking forward to honing my skills in a challenging work
+                            environment.</p>
+                        <div id="resume-button">
+                            <button><a style="text-decoration: none;background: none;color:white"
+                                    href="./download/Nitya-Baranwal-Resume.pdf" download target="_blank"> Resume </a><i
+                                    style="color: white; background-color: #5a96d1;" class="fa fa-download"
+                                    aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div id="about-right"></div>
+            </div>
+        </div>
+
+
+        <div id="skills-section">
+            <h3><span style="color: #5a96d1;">My</span>Skills</h3>
+            <div id="gap">
+                <h1><span style="color: #5a96d1">Front-end </span> Technologies</h1>
+                <div id="front">
+                    <div class="frontend">
+                        <div>
+                            <img src="images/html-5.png">
+                            <h4>HTML 5</h4>
+                        </div>
+                    </div>
+                    <div class="frontend">
+                        <div>
+                            <img src="images/css.png">
+                            <h4>CSS 3</h4>
+                        </div>
+                    </div>
+                    <div class="frontend">
+                        <div>
+                            <img src="images/java-script.png">
+                            <h4>JavaScript</h4>
+                        </div>
+                    </div>
+                    <div class="frontend">
+                        <div>
+                            <img src="images/netlify.png">
+                            <h4>Netlify</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="gap1">
+                <h1><span style="color: #5a96d1">Back-end </span> Technologies</h1>
+                <div id="front1">
+                    <div class="frontend">
+                        <div>
+                            <img src="images/java.png">
+                            <h4>Java</h4>
+                        </div>
+                    </div>
+                    <div class="frontend">
+                        <div>
+                            <img src="images/mysql.png">
+                            <h4>MySql</h4>
+                        </div>
+                    </div>
+                    <div class="frontend">
+                        <div>
+                            <img src="images/spring-boot.png">
+                            <h4>SpringBoot</h4>
+                        </div>
+                    </div>
+                    <div class="frontend">
+                        <div>
+                            <img src="images/github.png">
+                            <h4>GitHub</h4>
+                        </div>
+                    </div>
+                    <div class="frontend">
+                        <div>
+                            <img src="images/hibernate-white.svg">
+                            <h4>Hibernate</h4>
+                        </div>
+                    </div>
+                    <div class="frontend">
+                        <div>
+                            <img src="images/postman-3521648.png">
+                            <h4>Postman</h4>
+                        </div>
+                    </div>
+                    <!-- <div class="frontend" id="none"></div>
+                  <div class="frontend" id="none"></div> -->
+                </div>
+            </div>
+        </div>
+
+        <!-- ---------about me end  -->
+
+
+        <!-- github calender and graph -->
+
+        <div class="title reveal">
+            <a target="_blank" rel="noreferrer" id="cicin" href="https://github.com/nitya-nb">
+                <p style="text-align: center; font-size: 200%; padding: 3%; text-underline-offset: none;">My Github
+                    Contributions</p>
+                <img width="100%" style="margin-bottom:20px;display: flex; padding: auto;" id="github-contributions"
+                    src="https://ghchart.rshah.org/nitya-nb" href="https://github.com/nitya-nb"
+                    alt="nitya-nb's Github chart" />
+            </a>
+        </div>
+        <div class="statsBox">
+            <h3>GitHub Stats</h3>
+            <div style="display: flex; width: 100%;">
+                <div class="statsContainer">
+                    <div>
+                        <a href="https://github.com/nitya-nb" target="_blank">
+                            <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=nitya-nb" />
+                        </a>
+                    </div>
+                </div>
+
+                <!-- <div class="stats-3">
+                    <p align="center">
+                        <a href="https://github.com/nitya-nb" target="_blank">
+                            <img align=""
+                                src="https://github-readme-stats.vercel.app/api/top-langs/?username=nitya-nb&bg_color=0D1117"
+                                alt="" />
+                        </a>
+                    </p>
+                </div> -->
+
+                <div class="stats-2" style="margin-right: 20%;">
+                    <p align="center">
+                        <a href="https://github.com/nitya-nb/github-readme-stats" target="_blank">
+                            <img alt="nitya-nb Github Stats"
+                                src="https://github-readme-stats.vercel.app/api?username=nitya-nb&show_icons=true&locale=en&theme=react&hide_border=true&bg_color=0D1117" />
+                        </a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <!-- <div class="graph-1">
+            <p align="center">
+                <a href="https://github.com/nitya-nb" target="_blank"><span>
+                        <img align="center"
+                            src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nitya-nb&theme=dracula&bg_color=0D1117" />
+                    </span></a>
+            </p>
+        </div> -->
+        <div class="graph">
+            <a href="https://github.com/nitya-nb/github-readme-activity-graph" target="_blank">
+                <img alt="nitya-nb Activity Graph"
+                    src="https://activity-graph.herokuapp.com/graph?username=nitya-nb&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" />
+            </a>
+        </div>
+
+        <!-- github calender and graph -->
+
+
+        <!------------project start-  -->
+        <div id="project">
+            <h3 style="text-align: center; padding-top: 5%; font-size: 3vw; color: white;"><span
+                    style="color: #5a96d1;">My</span>Projects</h3>
+            <div id="created">
+
+                <div class="work">
+                    <img src="images/lovoda-7-img.PNG">
+                    <div class="layer">
+                        <p style="font-size: 30px; line-height: normal;" id="h3">E-commerce Clone Website</p>
+                        <p id="p" style="font-size: 19px;">It is an E-Commerce clone website which deals in women's
+                            jewellery</p>
+                        <a href="https://verdant-biscotti-1680f9.netlify.app/" target="_blank">Live</a>
+                        <a href="https://github.com/nitya-nb/responsible-stomach-8778" target="_blank">GitHub</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/ohs-img.png">
+                    <div class="layer">
+                        <p style="font-size: 30px; line-height: normal;" id="h3">Online Hardware And Software Support
+                            System</p>
+                        <p id="p" style="font-size: 19px;">Core Java, SQL, JDBC using DAO Pattern</p>
+                        <a href="https://drive.google.com/file/d/1B0YVHb2gxvkIyxoRfXAS-roeIsZHOqGw/view?usp=sharing"
+                            target="_blank">Live</a>
+                        <a href="https://github.com/nitya-nb/Online-Hardware-and-software-support-system"
+                            target="_blank">GitHub</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/backend11.png">
+                    <div class="layer">
+                        <p style="font-size: 30px; line-height: normal;" id="h3">Music App</p>
+                        <p id="p" style="font-size: 19px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                        <a href="https://verdant-biscotti-1680f9.netlify.app/" target="_blank">Live</a>
+                        <a href="https://github.com/nitya-nb/responsible-stomach-8778" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- --------------------------Contact Me----------------------------- -->
+
+        <div id="contact">
+            <div id="contactme">
+                <div id="firstcontact">
+                    <h1>Contact <span style="color:#5a96d1;">Me</span></h1>
+                    <div id="git"><img src="images/github.png">
+                        <p>nitya-nb</p>
+                    </div>
+                    <div id="tele"><img src="images/phone-icon.png">
+                        <p>+917985146647</p>
+                    </div>
+                    <div id="all">
+                        <img src="images/linkedin.png" alt="">
+                    </div>
+                    <button>Download CV</button>
+                </div>
+                <!-- <div id="secondcontact">
             <form action="https://formsubmit.co/nityabaranwal1@gmail.com" method="post" target="_blank" rel="noopener noreferrer">
 
                 <input type="hidden" name="_template" value="table">
@@ -296,16 +317,17 @@
                 <button type="submit" id="contact-button">SEND</button>
             </form>
           
+        </div> -->
+            </div>
         </div>
+
     </div>
-</div>
 
-  </div> 
-
-</div>
+    </div>
 
 
 </body>
+
 </html>
 <script src="/scripts/index.js"></script>
 

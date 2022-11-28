@@ -297,7 +297,7 @@
   /* border: 1px solid rgb(0, 0, 0); */
   background-color: #222629;
 }
-#project h3 {
+#project #h3 {
   text-align: center;
   padding-top: 5%;
   font-size: 3vw;
@@ -343,7 +343,7 @@
   font-size: 14px;
   transition: height 0.3s;
 }
-.layer h3 {
+.layer #h3 {
   font-weight: 200;
   margin-bottom: 5%;
   text-align: center;
@@ -648,7 +648,7 @@
   margin-left: 10%;
   /* border: 1px solid red; */
  }
- #project h3{
+ #project #h3{
   font-size: 3vw;
  }
 
@@ -966,7 +966,7 @@
   margin-left: 10%;
   /* border: 1px solid red; */
  }
- #project h3{
+ #project #h3{
   font-size: 7vw;
  }
 

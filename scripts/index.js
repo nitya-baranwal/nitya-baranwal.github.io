@@ -1,3 +1,14 @@
+GitHubCalendar(".calendar", "sanuatmasai", { responsive: true });
+{
+  months: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  days: ['S', 'M', 'T', 'W', 'T', 'F', 'S'];
+  No: 'No';
+  on: 'on';
+  Less: 'Less';
+  More: 'More'
+};
+
+
 
 function onClickMenu(){
   document.getElementById("menu").classList.toggle("icon");

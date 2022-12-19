@@ -351,10 +351,7 @@
 
 /* --------my  projects --------- */
 
-
-
 #project {
-  /* border: 1px solid rgb(0, 0, 0); */
   background-color: black;
 }
 
@@ -365,8 +362,10 @@
   color: white;
 }
 
+/* Desktop screen */
 #created {
-  display: flex;
+  /* display: flex; */
+  display: none;
   width: 94%;
   margin: auto;
   margin-top: 80px;
@@ -440,6 +439,22 @@
   text-align: center;
   padding: 0 3% 0 3%;
 }
+
+
+.newlayer a {
+  margin-top: 10%;
+  color: #5a96d1;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 30px;
+  background: #fff;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  text-align: center;
+  padding: 0 3% 0 3%;
+}
+
 
 .layer a:hover {
   background-color: #5a96d1;
@@ -1109,7 +1124,7 @@
     padding: 0 3% 0 3%;
   }
 
-
+  
 
   .list-item {
     font-size: 0;

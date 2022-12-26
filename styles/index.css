@@ -54,7 +54,7 @@
 
 #list .list-item {
   /* border: 1px solid purple; */
-  font-size: 2vw;
+  font-size: 1.5vw;
   /* color: #ff521b; */
   color: #5a96d1;
   /* color: #61a5c2; */
@@ -565,8 +565,6 @@
   /* width: 50%; */
   /* border: 1px solid red; */
   /* background-color: black; */
-
-
 }
 
 #secondcontact input {
@@ -602,6 +600,9 @@
   * {
     overflow-x: visible;
   }
+
+
+
 
   #navbar {
     display: none;
@@ -709,7 +710,7 @@
   }
 
 
-  /* ----- media query skills 1 ---- */
+  /* ----- medd query skills 1 ---- */
 
   #skills-section {
     /* z-index: -100;
@@ -890,6 +891,10 @@
   .change {
     width: 40%;
   }
+
+  body #main .ewp{
+    border:5px solid red;
+  }
 }
 
 
@@ -898,6 +903,8 @@
   * {
     overflow-x: visible;
   }
+
+
 
   #navbar {
     display: none;
@@ -1124,7 +1131,7 @@
     padding: 0 3% 0 3%;
   }
 
-  
+
 
   .list-item {
     font-size: 0;
@@ -1223,6 +1230,13 @@
   .change {
     width: 100%;
   }
+
+  body #main .newp{
+    border:5px solid red;
+    display: none;
+  }
+
+
 
 }
 
@@ -1334,6 +1348,12 @@
     margin: auto;
   }
 
+  body #main .newp{
+    border:5px solid red;
+    display: none;
+  }
+
+
 
 
 }
@@ -1401,6 +1421,14 @@
     width: 80%;
     margin: auto;
   }
+
+  body #main .newp{
+    border:5px solid red;
+    display: none;
+  }
+
+  
+
 }
 
 
@@ -1427,6 +1455,12 @@
     border: 1px solid rgb(22, 4, 61);
   }
 
+  body #main .ewp{
+    border:5px solid red;
+  }
+  
+
+
 }
 
 
@@ -1440,6 +1474,8 @@
     justify-content: center;
   }
 
+
+
   .statsContainer>div a img {
     width: 100%;
   }
@@ -1452,4 +1488,12 @@
     color: rgb(54, 3, 3);
     border: 1px solid rgb(22, 4, 61);
   }
+
+  body #main .newp{
+    border:5px solid red;
+    display: none;
+  }
+
+  
+
 }

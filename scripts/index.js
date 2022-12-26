@@ -1,21 +1,9 @@
-GitHubCalendar(".calendar", "sanuatmasai", { responsive: true });
-{
-  months: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-  days: ['S', 'M', 'T', 'W', 'T', 'F', 'S'];
-  No: 'No';
-  on: 'on';
-  Less: 'Less';
-  More: 'More'
-};
-
-
-
-function onClickMenu(){
+function onClickMenu() {
   document.getElementById("menu").classList.toggle("icon");
   document.getElementById("nav").classList.toggle("change");
 }
 
-function removemenu(){
+function removemenu() {
 
   document.getElementById("menu").classList.toggle("icon");
   document.getElementById("nav").classList.toggle("change");
@@ -25,7 +13,7 @@ function removemenu(){
 
 
 
-consoleText(['Full Stack Web Developer!', 'Problem Solver'], 'text',['#5a96d1']);
+consoleText(['Java Backend Developer!', 'Problem Solver'], 'text', ['#5a96d1']);
 // rgb(220, 100, 2)
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
@@ -36,12 +24,12 @@ function consoleText(words, id, colors) {
   var waiting = false;
   var target = document.getElementById(id)
   target.setAttribute('style', 'color:' + colors[0])
-  window.setInterval(function() {
+  window.setInterval(function () {
 
     if (letterCount === 0 && waiting === false) {
       waiting = true;
       target.innerHTML = words[0].substring(0, letterCount)
-      window.setTimeout(function() {
+      window.setTimeout(function () {
         var usedColor = colors.shift();
         colors.push(usedColor);
         var usedWord = words.shift();
@@ -53,7 +41,7 @@ function consoleText(words, id, colors) {
       }, 1000)
     } else if (letterCount === words[0].length + 1 && waiting === false) {
       waiting = true;
-      window.setTimeout(function() {
+      window.setTimeout(function () {
         x = -1;
         letterCount += x;
         waiting = false;

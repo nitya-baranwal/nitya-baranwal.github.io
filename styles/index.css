@@ -319,19 +319,19 @@
 }
 
 .calendar rect.ContributionCalendar-day[data-level='1'] {
-  fill: #0480fd;
+  fill: #39d353;
 }
 
 .calendar rect.ContributionCalendar-day[data-level='2'] {
-  fill: #409fff;
+  fill: #26a641;
 }
 
 .calendar rect.ContributionCalendar-day[data-level='3'] {
-  fill: #9fcefd;
+  fill: #006d32;
 }
 
 .calendar rect.ContributionCalendar-day[data-level='4'] {
-  fill: #d1e7fc;
+  fill: #0e4429;
 }
 
 .calendar {
